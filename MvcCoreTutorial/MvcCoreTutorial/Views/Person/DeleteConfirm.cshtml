@@ -1,0 +1,10 @@
+﻿@model MvcCoreTutorial.ViewModels.PersonViewModel;
+
+<h2>Do you really want to delete @Model.Name permanently ?</h2>
+<br />
+
+<form asp-action="DeletePerson" method="Post">
+    <input type="hidden" asp-for="Id" />
+<a class="btn btn-warning" href="/Person/DisplayPersons">Cancel</a>
+<button type="submit" class="btn btn-danger">Delete</button>
+</form>

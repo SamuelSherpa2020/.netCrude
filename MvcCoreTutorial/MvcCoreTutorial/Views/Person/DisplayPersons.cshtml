@@ -1,0 +1,43 @@
+﻿@*@model MvcCoreTutorial.Models.Domain.Person*@
+
+@*@model IEnumerable<MvcCoreTutorial.Models.Domain.Person>*@
+
+@model IEnumerable<MvcCoreTutorial.ViewModels.PersonViewModel>
+
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-lg-6 overflow-scroll">
+            <a href="/Person/AddPerson" class="btn btn-primary">Add Person</a>
+            <h3>Person List</h3>
+     
+        <table class="table table-stripped">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Action</th>
+                <td></td>
+                </tr>
+            </thead>
+                @foreach(var person in Model)
+                {
+                     <tr>
+                         <td>
+                             @person.Name
+                         </td>
+                         <td>@person.Age</td>
+                         <td>@person.Email</td>
+                         <td>
+                             <a class="btn btn-success" href="/Person/EditPerson?id=@person.Id">Edit</a>
+                            
+                         </td>
+                         <td> <a class="btn btn-danger" href="/Person/DeleteConfirm?id=@person.Id">Delete</a></td>
+                     </tr>
+                }
+        
+        </table>
+          </div>        
+
+    </div>
+</div>

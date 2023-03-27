@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "sqdT3TWhCBXCqAUlQyOEhmVrSq2GYZbfq1mxvfsOAzw=",
+  "Source": "MvcCoreTutorial",
+  "BasePath": "_content/MvcCoreTutorial",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MvcCoreTutorial\\wwwroot",
+      "Source": "MvcCoreTutorial",
+      "ContentRoot": "E:\\VS_C#folder_SelfLearn\\Youtube dotnet core practices\\MvcCoreTutorial\\MvcCoreTutorial\\wwwroot\\",
+      "BasePath": "_content/MvcCoreTutorial",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\VS_C#folder_SelfLearn\\Youtube dotnet core practices\\MvcCoreTutorial\\MvcCoreTutorial\\wwwroot\\favicon.ico",
+      "SourceId": "MvcCoreTutorial",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\VS_C#folder_SelfLearn\\Youtube dotnet core practices\\MvcCoreTutorial\\MvcCoreTutorial\\wwwroot\\",
+      "BasePath": "_content/MvcCoreTutorial",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}
